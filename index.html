@@ -1,11 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Julia Ferrer</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <div class="head-profile">
+            <p>CURRICULUM VITAE</p>
+            <h1>Júlia Ferrer Puig</h1>
+            <h2>Front-end Developer / UX Designer</h2>
+        </div>
+        <img class="head-photo" src="images/JuliaCV.jpg" width="180" height="180">
+        <div class="head-summary-card">
+            <h2 class="label">SUMMARY</h2>
+            <p>I bring design and code together to make clear, accessible digital experiences. From local business
+                websites to playful personal projects, I care about the details that make the web feel easy.</p>
+            <p class="label">BANYOLES, CATALONIA · AGE 24</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="left-column">
+            <div class="card">
+                <h2 class="label label-accent">EDUCATION</h2>
+
+                <div class="entry">
+                    <h3>Master’s in Interaction Design</h3>
+                    <p class="meta">Pompeu Fabra University (UPF)</p>
+                    <p class="dates">2023-2024</p>
+                </div>
+
+                <div class="entry">
+                    <h3>Bachelor’s Degree in Computer Engineering</h3>
+                    <p class="meta">University of Girona (UdG)</p>
+                    <p class="dates">2019-2023</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="label label-accent">EXPERIENCE</h2>
+
+                <div class="entry">
+                    <h3>Websites for local businesses</h3>
+                    <p class="meta">Freelance · Restaurants & shops</p>
+                    <p class="dates">2024-Present</p>
+                    <p>Designing and building websites for small local businesses, with a focus on clear
+                        content and responsive layouts.</p>
+                    <ul>
+                        <li>Designed 12 responsive pages across 4 restaurant and shop websites.</li>
+                        <li>Built reusable navigation and footer components used across 3 projects.</li>
+                        <li>Handled launch QA and accessibility checks for each live site.</li>
+                    </ul>
+                </div>
+
+                <div class="entry">
+                    <h3>Front-end development intern</h3>
+                    <p class="meta">Digital agency · Girona</p>
+                    <p class="dates">2024</p>
+                    <p>Implemented responsive interfaces and worked on reusable components as part of a
+                        digital agency team.</p>
+                    <ul>
+                        <li>Implemented responsive layouts for 8 campaign pages and 2 landing pages.</li>
+                        <li>Contributed to a shared component library used by 3 client projects.</li>
+                        <li>Reviewed accessibility and cross-browser issues before handoff.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="label label-accent">SELECTED PROJECTS</h2>
+
+                <div class="entry">
+                    <h3>Pedal La Garrotxa</h3>
+                    <p class="meta">Cycling routes app concept</p>
+                    <p>A concept app to help cyclists explore routes through La Garrotxa.</p>
+                    <p class="tech">Figma / HTML / CSS / JavaScript / React (basic)</p>
+                    <a class="button" href="#">
+                        View project <span class="button-url">github.com/JuliaFerrer/pedal</span>
+                    </a>
+                </div>
+
+                <div class="entry">
+                    <h3>After Hours</h3>
+                    <p class="meta">Music festival website concept</p>
+                    <p>A sample festival website that puts the programme and practical information first.</p>
+                    <p class="tech">Figma / HTML / CSS / JavaScript</p>
+                    <a class="button" href="#">
+                        View project <span class="button-url">github.com/JuliaFerrer/after-hours</span>
+                    </a>
+                </div>
+
+                <div class="entry">
+                    <h3>Next Stop</h3>
+                    <p class="meta">Public transport app redesign concept</p>
+                    <p>A concept redesign for a clearer, calmer everyday journey-planning experience.</p>
+                    <p class="tech">Figma / Accessibility (WCAG)</p>
+                    <a class="button" href="#">
+                        View project <span class="button-url">github.com/JuliaFerrer/next-stop</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+
+            <div class="card">
+                <h2 class="label label-accent">SKILLS</h2>
+
+                <h3 class="label">DESIGN</h3>
+                <ul class="tags">
+                    <li>Figma</li>
+                    <li>Accessibility (WCAG)</li>
+                </ul>
+
+                <h3 class="label">FRONTEND</h3>
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React · basic</li>
+                </ul>
+
+                <h3 class="label">TOOLS</h3>
+                <ul class="tags">
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2 class="label label-accent">LANGUAGES</h2>
+                <ul class="languages">
+                    <li><span>Catalan</span> <span class="level">Native</span></li>
+                    <li><span>Spanish</span> <span class="level">Native</span></li>
+                    <li><span>English</span> <span class="level">B2/C1</span></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2 class="label label-accent">OUTSIDE THE SCREEN</h2>
+                <p class="big-text">A different kind<br>of creative practice.</p>
+                <p>I volunteer in a photography collective and play bass in a band. Different tools, the
+                    same curiosity.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p>Júlia Ferrer Puig · Banyoles</p>
+            <a class="mono" href="mailto:julia.ferrer@gmail.com">julia.ferrer@gmail.com</a>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">LinkedIn · Julia Ferrer <span class="mono">JuliaFerrer.com/linkedin</span></a></li>
+                <li><a href="#">GitHub · Julia Ferrer <span class="mono">JuliaFerrer.com/github</span></a></li>
+            </ul>
+            <a class="button" href="#">Contact <span class="button-url">JuliaFerrer.com/contact</span></a>
+        </div>
+    </footer>
 </body>
+
 </html>
